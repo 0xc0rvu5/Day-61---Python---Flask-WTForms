@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Secrets</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+	<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+</head>
+<body>
+<div class="jumbotron">
+	<div class="container center-all">
+		<h1>Welcome</h1>
+		<p>Are you ready to discover my secret?</p>
+		<button class="btn btn-primary btn-lg pad-up"><a href="{{ url_for('login') }}">Login</a></button>
+	</div>
+</div>
+</body>
+</html>
